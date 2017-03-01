@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Lomax</title>
+
+        <!-- Bootstrap -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <link rel="stylesheet" type="text/css"
+              href="https://fonts.googleapis.com/css?family=Open Sans">
+
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/margins.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container">
+            <!-- Top: Firmajulegave -->
+            <div class="top-img">
+                <div class="text-top">
+                    <h1>Vælg selv firmajulegaven 2016</h1>
+                    <h2>Lad dine medarbejdere vælge deres egen julegave, så de får en gave, de ønsker sig.</h2>
+                    <p>Hos Lomas hjælper vi med et attraktivt udvalg af firmajulegaver i tre forskellige prisklasser.</p>
+                    <p>Vi har et bredt sortiment i høj kvalitet, hvor vi har sørget for den bedste julegave til prisen - du kan spare op til 79% af den vejl. udsalgspris</p>
+                    <p>Gaverne er omhyggeligt udvalgt fra blandt andet anerkendte udenlandske og danske designere.</p>
+                    <p>I vælger, vi leverer. Det var nemt!</p>
+                </div>
+            </div>
+
+            <!-- Sådan fungerer det -->
+            <div>
+                <div class="marginTop50 marginBottom30"><h2>Sådan fungere det:</h2></div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="thumbnail bg-color">
+                            <img src="images/infografik_1.png" alt="bestilling af gavebevis">
+                            <div class="caption">
+                                <p>Du bestiller et gavebevis i den prisklasse, du ønsker at give.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="thumbnail bg-color">
+                            <img src="images/infografik_2.png" alt="vi sender gavebeviserne">
+                            <div class="caption">
+                                <p>Vi sender gavebeviserne til dig, og du deler dem ud.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="thumbnail bg-color">
+                            <img src="images/infografik_3.png" alt="valg af gave">
+                            <div class="caption">
+                                <p>Medarbejderen indtaster gavekoden og vælger selv sin gave.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="thumbnail bg-color">
+                            <img src="images/infografik_4.png" alt="direkte levering">
+                            <div class="caption">
+                                <p>Vi leverer gaverne direkte til virksomheden.</p>
+                                <!--<button id="btnFAQModal" type="button" class="btn btn-info" data-toggle="modal" data-taget="#faqModal">Vil du vide mere?</button>  modal -->
+                                <p><a href="#" id="faqLink">Vil du vide mere?</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bestil -->
+            <div class="marginBottom40">
+                <div class="marginTop50 marginBottom30"><h2>Start med at bestille:</h2></div>
+                <div class="bg-gray">Vælg gavebeløb</div>
+                <div class="wrapper-bg-white">
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 marginTop20">
+                                <div><img src="images/gavebevis.png" alt="gavebevis" class="img-rounded img-size img-border center-block"></div>
+                                <div class="marginTop10 marginLeft55">
+                                    <input type="radio" name="optionsRadios" id="gavebevis300" value="option2">
+                                    <label for="gavebevis300"><span><span></span></span><strong>Kr. 300,-</strong></label>
+                                    <p class="marginTop10 marginBottom30">Vejl. udsalgspris op til kr. 899,-</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 marginTop20">
+                                <div><img src="images/gavebevis_populaer.png" alt="populært gavebevis" class="img-rounded img-size img-border center-block"></div>
+                                <div class="marginTop10 marginLeft55">
+                                    <input type="radio" name="optionsRadios" id="gavebevis500" value="option2">
+                                    <label for="gavebevis500"><span><span></span></span><strong>Kr. 500,-</strong></label>
+                                    <p class="marginTop10 marginBottom30">Vejl. udsalgspris op til kr. 1.300,-</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 marginTop20">
+                                <div><img src="images/gavebevis.png" alt="gavebevis" class="img-rounded img-size img-border center-block"></div>
+                                <div class="marginTop10 marginLeft55">
+                                    <input type="radio" name="optionsRadios" id="gavebevis640" value="option2">
+                                    <label><span><span></span></span><strong>Kr. 640,-</strong></label>
+                                    <p class="marginTop10 marginBottom30">Vejl. udsalgspris op til kr. 3.000,-</p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Levering -->
+            <div class="marginBottom40">
+                <div class="bg-gray">Vælg leveringsuge</div>
+                <div class="wrapper-bg-white">
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4 marginTop20 marginLeft55 levering">
+                                <div>
+                                    <input type="radio" name="optionsRadios" id="levering49" value="option2">
+                                    <label for="levering49"><span><span></span></span><strong>Levering uge 49</strong></label>
+                                    <p class="marginTop10 marginBottom30">Medarbejderen skal foretage sit valg senest d. 4. november</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 marginTop20 levering">
+                                <div>
+                                    <input type="radio" name="optionsRadios" id="levering51" value="option2">
+                                    <label for="levering51"><span><span></span></span><strong>Levering uge 51</strong></label>
+                                    <p class="marginTop10 marginBottom30">Medarbejderen skal foretage sit valg senest d. 25. november</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-4 marginTop20 levering">
+                                <div>
+                                    <input type="radio" name="optionsRadios" id="levering3" value="option2">
+                                    <label for="levering3"><span><span></span></span><strong>Levering uge 3</strong></label>
+                                    <p class="marginTop10 marginBottom30">Medarbejderen skal foretage sit valg senest d. 31. december</p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>  
+                
+            </div>
+
+            <!-- Antal -->
+            <div>
+                <div class="bg-gray">Vælg antal</div>
+                <div class="wrapper-bg-white">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-4 antal">
+                                    <label class="col-sm-9 gavebeviser">Antal gavebeviser:</label>
+                                    <div class="col-sm-3">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <p>Minimumkøb: 10 stk.</p>
+                                </div>
+                                <div class="col-md-4 julesaek marginTop26">
+                                    <div>
+                                        <input id="option" type="checkbox" name="field" value="option">
+                                        <label for="option"><span></span>Ja tak, gaverne leveres i julesæk</label>
+                                        <div class="navn">- med medarbejderes navn</div>
+                                    </div>
+                                    <div class="marginTop20 marginLeft40">kr. 25,- per gavebevis</div>
+                                    <div class="marginTop10 marginLeft40 marginBottom40"><a href="#" id="juleLink">Se julegavesæk</a></div>
+                                </div>
+                                <div class="col-md-4 samlet-pris">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <label>Samlet beløb:</label>
+                                            <div class="marginLeft80">0 kr.</div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <button type="button" class="btn btn-danger">Læg i kurv</button>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Footer -->
+                <div>
+                    <div class="footer-img">
+                        <p class="text-center"><a href="#" id="betingelserLink">Særlige betingelser for vælg selv firmajulegaven 2016</a></p>
+                    </div>
+                </div>
+            </div> <!-- end container -->
+
+            <!-- Modals -->
+            <!-- FAQ -->
+            <div id="faqModal" class="modal fade" role="dialog" tabindex="-1">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title text-center">De mest stillede spørgsmål</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Bliver gaverne leveret samlet?</h5>
+                            <p><small>Ja, gaverne bliver leveret samlet i den valgte leveringsuge.</small></p>
+                            <h5>Kan man bytte/returnere gavebevis og julegave?</h5>
+                            <p><small>Gavebevis og julegaver kan desværre ikke byttes eller returneres.</small></p>
+                            <h5>Kan medarbejderne altid være sikker på, at de får den gave, som de har valgt?</h5>
+                            <p><small>Ja, når medarbejderen har valgt sin gave på www.vælgjulegave.dk, er medarbejderen sikker på at få sin ønskede julegave.</small></p>
+                            <h5>Er der navn på den enkelte gave, hvis jeg ikke vælger levering i julegavesæk?</h5>
+                            <p><small>Der kommer kun navn på hver enkelt gave, hvis du vælger levering i julegavesæk, men vi sender altid en oversigt over medarbejdernes valg af gave, så det tydeligt fremgår, hvilken gave den enkelte medarbejder har valgt.</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Julesæk -->
+        <div id="juleModal" class="modal fade" role="dialog" tabindex="-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title text-center">Sådan ser julegavesækken ud</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/julesaekke.png" class="img-responsive" style="height:330px;max-width: 100%;" alt="julesaekke">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Betingelser -->
+        <div id="betingelserModal" class="modal fade" role="dialog" tabindex="-1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title text-center">Særlige betingelser for vælg selv firmajulegaven 2016</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="marginLeft30">
+                            <ul>
+                                <li>Intet salg til private</li>
+                                <li>Ingen ombytningsret</li>
+                                <li>Når deadline er overskredet, virker gavekoden ikke længere</li>
+                                <li>Hvis en medarbejder ikke vælger en gave inden deadline, tildeles automatisk en gave fra samme prisklasse</li>
+                                <li>Lomaz forbeholder sig ret til at fjerne og tilføje nye produkter ved udsolgte varer</li>
+                                <li>Der gives max 5% i kvartalsbonus</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed --> 
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="scripts/javascript.js" type="text/javascript"></script>
+    </body>
+</html>
