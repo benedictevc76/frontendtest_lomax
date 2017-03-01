@@ -1,0 +1,237 @@
+/*------------------------------------------------
+        #MAIN
+--------------------------------------------------*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F0E1B8;
+    color: #333334;
+    font-family: 'Open Sans', serif;
+    font-size: 14px;
+}
+
+.container {
+    background-color: #D0ECEB;
+    width: 1170px;
+}
+
+.bg-gray{
+    background-color: #696969;
+    margin-left: -15px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 1.75em;
+    font-weight: lighter;
+    padding-left: 23px;
+    width: 25%;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.wrapper-bg-white{
+    background-color: white;
+    width: auto;
+    min-width: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.wrapper-bg-white.row{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------------------------------------
+        #Tekst
+--------------------------------------------------*/
+h1{
+    font-weight: lighter;
+    font-size: 3.2em;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 1.75em;
+    color: #696969;
+}
+
+.wrapper-bg-white label{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.wrapper-bg-white p{
+    font-style: italic;
+    color: #696969;
+}
+
+/*------------------------------------------------
+        #TOP
+--------------------------------------------------*/
+.top-img{
+    background: url("../images/top_billede.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.text-top{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6%;
+}
+
+/*------------------------------------------------
+        #Fungerer
+--------------------------------------------------*/
+.bg-color{
+    background-color: #D0ECEB;
+}
+
+.thumbnail{
+    border: none;
+}
+
+/*------------------------------------------------
+        #Bestilling
+--------------------------------------------------*/
+.radio{
+    margin-left: 48px;
+}
+
+.img-size{
+    height: auto; 
+    width: auto; 
+    max-width: 309px; 
+    max-height: 309px;
+}
+
+.img-border{
+    border: 1px solid #696969;
+}
+
+.levering{
+    width: 30%;
+}
+
+/*------------------------------------------------
+        #Antal
+--------------------------------------------------*/
+.antal, .julesaek, .samlet-pris{
+    width: 25%;
+    padding: 0;
+}
+
+.antal{
+    margin-left: 7%; 
+}
+
+.julesaek{
+    margin-top: 1.25%;
+}
+
+.antal, .samlet-pris{
+    margin-top: 2%;
+}
+
+.antal, .julesaek{
+    margin-right: 3%;
+}
+
+.julesaek, .samlet-pris{
+    margin-left: 3%;
+}
+
+.gavebeviser{
+    margin-left: -15px;
+}
+
+.navn{
+    margin-left: 3em;
+    font-weight: 700;
+    margin-top: -1.2em;
+    font-size: 1.2em;
+}
+
+/*------------------------------------------------
+        #Checkbox + Radio
+--------------------------------------------------*/
+input[type="checkbox"]:not(old),
+input[type="radio"]:not(old){
+    width   : 2em;
+    margin  : 0;
+    padding : 0;
+    opacity : 0;
+}
+
+input[type="checkbox"]:not(old) + label,
+input[type="radio"]:not(old) + label{
+    display      : inline-block;
+    margin-left  : -2em;
+    line-height  : 1.5em;
+}
+
+input[type="radio"]:not(old) + label > span{
+    display          : inline-block;
+    width            : 1em;
+    height           : 1em;
+    margin           : 0.25em 0.5em 0.25em 0.25em;
+    border           : 0.0625em solid rgb(107,118,119);
+    border-radius    : 0.5em;
+    background       : #ffffff;
+    vertical-align   : bottom;
+}
+
+input[type="checkbox"]:not(old) + label > span{
+    display          : inline-block;
+    width            : 2em;
+    height           : 2em;
+    margin           : 0.25em 1em 0.25em 0.25em;
+    border           : 0.0625em solid rgb(107,118,119);
+    border-radius    : 0.25em;
+    background       : #ffffff;
+    vertical-align   : top;
+}
+
+input[type="checkbox"]:not(old):checked + label > span:before{
+    content     : '✓';
+    display     : block;
+    width       : 2em;
+    color       : rgb(107,118,119);
+    font-size   : 0.875em;
+    line-height : 2em;
+    text-align  : center;
+    text-shadow : 0 0 0.0714em rgb(115,153,77);
+    font-weight : bold;
+}
+
+input[type="radio"]:not(old):checked + label > span > span{
+    display          : block;
+    width            : 0.6em;
+    height           : 0.6em;
+    margin           : 0.16em;
+    border           : 0.0625em solid rgb(107,118,119);
+    border-radius    : 0.3em;
+    background       : rgb(107,118,119);
+}
+
+/*------------------------------------------------
+        #FOOTER
+--------------------------------------------------*/
+.footer-img{
+    background: url("../images/footer_billede.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 385px;
+    width: 1170px;
+}
